@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.trash {
+  float  :left;
+  margin  :2px;
+  padding  :50px;
+
+}
+.binid {
+  bottom : 0;
+  background:white;
+  height: 150px;
+}
+.innerBin{
+  margin-top : 50px;
+    margin-left:12px;
+  margin-right:17px;
+  width:160px;
+  margin-bottom : 20px;
+  padding-bottom : 0;
+  height  : 242px;
+  background : #ffdd02;
+  z-index :1;
+  border-radius:17px;
+
+}
+img{
+  position : absolute;
+  background-size:100%;
+  max-width: 100%;
+  padding:0,0,0,0;
+  margin: 0,0,0,0;
+  opacity : 0.65;
+  z-index : 2;
+
+}

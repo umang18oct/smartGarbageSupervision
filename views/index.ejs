@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Garbage Monitoring System</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+  </head>
+  <body>
+    <h1><center>Garbage Monitoring System</center></h1>
+    <h2><center>Welcome to Trash Bin Monitor</center></h2>
+    <div class="container" ng-app="myapp" ng-controller="ctrl">
+
+      <div class ="trash" ng-repeat="bin in bins">
+        <h1>Trash-Bin :{{bin.n}} </h1>
+        <div class="outerBin">
+          <img src="/images/trash.jpg" width  ="180px" height = "250px">
+          <div class="innerBin" >
+            <div class="binid"  ng-style="{height: getHeight(bin.filled)+ 'px'}">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </body>
+  <script type="text/javascript" src="/javascripts/script.js"></script>
+</html>
